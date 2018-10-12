@@ -52,7 +52,8 @@ void nonlinear_mapping_orthogonal(double x,double y,double &u,double &v,double f
 
 }
 
-// 从鱼眼图像到标定图像的非线性映射
+// 从鱼眼图像到标定图像的非线性映射;
+//lxl:在这里修改成自己的映射
 void inverse_nonlinear_mapping_orthogonal(double u,double v,double &x,double &y,double foval, double factor_f = 1 /*鱼眼图像的缩放*/, double factor_c = 1 /*校正图像的缩放*/)
 {
 
